@@ -32,6 +32,7 @@ class Dog
   end 
   
   def self.new_from_db(array)
+    attributes_hash = 
     id = array[0]
     name = array[1]
     breed = array[2]
