@@ -33,9 +33,9 @@ class Dog
   
   def self.new_from_db(array)
     attributes_hash = {
-      id = array[0]
-      name = array[1]
-      breed = array[2]
+      :id = array[0]
+      :name = array[1]
+      :breed = array[2]
     self.new(id: id, name: name, breed: breed) 
   end
   
