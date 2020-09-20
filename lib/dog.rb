@@ -54,6 +54,7 @@ class Dog
       binding.pry
     end 
     dog
+    binding.pry
   end
   
 end
