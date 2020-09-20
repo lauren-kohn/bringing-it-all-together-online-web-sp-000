@@ -52,7 +52,8 @@ class Dog
     
     dog = DB[:conn].execute(sql, name, breed).first
     
-    if 
+    if dog 
+      new_dog = 
   end
   
 end
