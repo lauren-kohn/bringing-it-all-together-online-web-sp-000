@@ -37,7 +37,7 @@ class Dog
       :name = array[1],
       :breed = array[2]
     }
-    self.new(id: id, name: name, breed: breed) 
+    self.new(attributes_hash) 
   end
   
   def self.find_by_id(id)
