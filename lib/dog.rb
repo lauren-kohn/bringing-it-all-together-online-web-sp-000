@@ -50,7 +50,9 @@ class Dog
       WHERE name = ? AND breed = ?
     SQL
     
-    DB[:conn].execute(sql, name, breed).first
+    dog = DB[:conn].execute(sql, name, breed).first
+    
+    if 
   end
   
 end
