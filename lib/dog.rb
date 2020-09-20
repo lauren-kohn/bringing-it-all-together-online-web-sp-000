@@ -49,7 +49,8 @@ class Dog
       SELECT * FROM dogs
       WHERE name = ? AND breed = ?
     SQL
-  
+    
+    DB[:conn].execute(sql, name, breed).first
   end
   
 end
